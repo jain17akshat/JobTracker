@@ -7,9 +7,9 @@ const UserSchema=new mongoose.Schema({
         type: String,
         enum: ['user', 'admin'],
         default: 'user',
-      }
+      },
       
-    name:{
+    name: {
         type:String,
         required:[true,"Please add a name"]
     },
